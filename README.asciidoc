@@ -1,0 +1,4 @@
+SKB Configuration
+-----------------
+
+Keys for configuration of an SKB system.
