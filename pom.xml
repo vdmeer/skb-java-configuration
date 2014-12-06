@@ -1,19 +1,37 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>de.vandermeer</groupId>
-  <artifactId>skb.configuration</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
-  <dependencies>
-  	<dependency>
-  		<groupId>de.vandermeer</groupId>
-  		<artifactId>skb.categories</artifactId>
-  		<version>0.0.3-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>junit</groupId>
-  		<artifactId>junit</artifactId>
-  		<version>4.11</version>
-  		<scope>test</scope>
-  	</dependency>
-  </dependencies>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>skb.configuration</artifactId>
+	<version>0.0.3-SNAPSHOT</version>
+
+	<parent>
+		<groupId>de.vandermeer</groupId>
+		<artifactId>skb.java</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:vdmeer/skb-java-configuration.git</developerConnection>
+		<connection>scm:git:git://github.com/vdmeer/skb-java-configuration.git</connection>
+		<tag>skb-configuration-0.0.3</tag>
+		<url>https://github.com/vdmeer/skb-java-configuration</url>
+	</scm>
+
+	<issueManagement>
+		<url>https://github.com/vdmeer/skb-java-configuration/issues</url>
+		<system>github</system>
+	</issueManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.vandermeer</groupId>
+			<artifactId>skb.categories</artifactId>
+			<version>0.0.3-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
