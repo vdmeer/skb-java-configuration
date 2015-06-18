@@ -12,7 +12,7 @@ import de.vandermeer.skb.categories.CategoryWithValue;
 import de.vandermeer.skb.categories.kvt.IsAttributeKey;
 import de.vandermeer.skb.categories.kvt.IsKey_String;
 
-public class EAttributeKeys_Tests {
+public class Test_EAttributeKeys {
 
 	@Test public void test_Object2KeyValue(){
 		Skb_Transformer<Object, String> tf=CategoryWithValue.CAT_TO_VALUESTRING();

@@ -7,7 +7,7 @@ import org.junit.Test;
 import de.vandermeer.skb.base.Skb_Transformer;
 import de.vandermeer.skb.categories.CategoryWithValue;
 
-public class EPath_Tests {
+public class Test_EPath {
 
 	@Test public void test_Object2PathValue(){
 		Skb_Transformer<Object, String> tf=CategoryWithValue.CAT_TO_VALUESTRING();

@@ -16,7 +16,7 @@ import de.vandermeer.skb.base.utils.Skb_Antlr4Utils;
 import de.vandermeer.skb.base.utils.Skb_TextUtils;
 import de.vandermeer.skb.categories.CategoryWithValue;
 
-public class Conversion_Tests {
+public class Test_Conversion {
 
 	@SuppressWarnings("unchecked")
 	@Test public void test_Manyobjects2Strbuilder(){
