@@ -22,7 +22,7 @@ import de.vandermeer.skb.base.Skb_ToStringStyle;
  * A map between string and a corresponding Java class as pair for a dictionary.
  *
  * @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
- * @version    v0.0.4 build 150619 (19-Jun-15) for Java 1.8
+ * @version    v0.0.4 build 150701 (01-Jul-15) for Java 1.8
  */
 public enum ETypeMap implements Skb_Pair<String, Class<?>> {
 	/** Generic pair for an unknown type mapped to an Object class */

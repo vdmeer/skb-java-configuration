@@ -19,14 +19,14 @@ import java.util.Arrays;
 import java.util.List;
 
 import de.vandermeer.skb.base.Skb_ToStringStyle;
-import de.vandermeer.skb.categories.IsGroup;
-import de.vandermeer.skb.categories.kvt.IsPropertyKey;
+import de.vandermeer.skb.base.categories.IsGroup;
+import de.vandermeer.skb.base.categories.kvt.IsPropertyKey;
 
 /**
  * Enumerate for property keys.
  *
  * @author     Sven van der Meer &lt;vdmeer.sven@mykolab.com&gt;
- * @version    v0.0.4 build 150619 (19-Jun-15) for Java 1.8
+ * @version    v0.0.4 build 150701 (01-Jul-15) for Java 1.8
  */
 public enum EPropertyKeys implements IsPropertyKey {
 

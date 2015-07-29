@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import de.vandermeer.skb.base.Skb_Transformer;
-import de.vandermeer.skb.categories.CategoryWithValue;
+import de.vandermeer.skb.base.categories.CategoryWithValue;
 
 public class Test_EPath {
 
