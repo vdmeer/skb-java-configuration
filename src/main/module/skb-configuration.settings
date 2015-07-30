@@ -1,4 +1,5 @@
 skb.module.version=0.0.4
+skb.module.alias=configuration
 skb.module.name=SKB Configuration
 skb.module.url=https://github.com/vdmeer/skb-java-configuration
 skb.module.description=Standard configurations for the SKB
